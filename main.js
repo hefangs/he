@@ -29,6 +29,7 @@ document.onmousemove = function (e) {
         }
         if (resultX < 0) {
             resultX = 0
+
         }
         div1.style.top = resultY + 'px'
         div1.style.left = resultX + 'px'
