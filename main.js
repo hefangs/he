@@ -31,6 +31,7 @@ document.onmousemove = function (e) {
             resultX = 0
 
         }
+
         div1.style.top = resultY + 'px'
         div1.style.left = resultX + 'px'
         lastX = e.clientX
